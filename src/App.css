@@ -54,11 +54,28 @@ li:hover span.delete-item {
   visibility: visible;
 }
 
+.message {
+  display: block;
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
 .error {
-  color:red;
+  background-color:red;
+}
+
+.success {
+  background-color:green;
 }
 
 .Footer a {
   padding-left: 2px;
   padding-right: 2px;
+}
+
+.Footer a.active {
+  font-weight: bold;
 }
